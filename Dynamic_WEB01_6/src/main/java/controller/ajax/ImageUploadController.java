@@ -19,7 +19,7 @@ import jakarta.servlet.http.Part;
 @WebServlet("/ajax/imageUpload")
 @MultipartConfig
 public class ImageUploadController extends HttpServlet {
-//
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		ServletContext sc = req.getServletContext();
